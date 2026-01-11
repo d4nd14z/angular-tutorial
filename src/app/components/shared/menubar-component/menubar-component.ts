@@ -4,7 +4,6 @@ import { RouterLink, RouterLinkActive } from "@angular/router";
 
 @Component({
   selector: 'menubar',
-  standalone: true,
   imports: [RouterLink, RouterLinkActive],
   templateUrl: './menubar-component.html',
   styleUrls: ['./menubar-component.css'],

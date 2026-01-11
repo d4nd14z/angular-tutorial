@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { MenubarComponent } from '../../components/shared/menubar-component/menubar-component';
 
 @Component({
   selector: 'app-about-page',
-  imports: [],
+  imports: [ MenubarComponent ],
   templateUrl: './about-page.html',
   styleUrl: './about-page.css',
 })
