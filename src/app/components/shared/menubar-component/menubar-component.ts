@@ -4,9 +4,9 @@ import { RouterLink, RouterLinkActive } from "@angular/router";
 
 @Component({
   selector: 'menubar',
-  imports: [RouterLink, RouterLinkActive],
+  imports: [ RouterLink, RouterLinkActive ],
   templateUrl: './menubar-component.html',
-  styleUrls: ['./menubar-component.css'],
+  styleUrl: './menubar-component.css',
 })
 export class MenubarComponent {
 

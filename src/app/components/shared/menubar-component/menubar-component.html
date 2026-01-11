@@ -12,8 +12,8 @@
     </button>
 
     <div id="mobile-menu" class="hidden absolute top-[60px] left-0 w-full bg-white shadow-md py-4 flex-col items-start gap-2 px-5 text-sm md:hidden">
-        <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" class="block">Home</a>
-        <a routerLink="/about" routerLinkActive="active" class="block">About</a>
+        <a routerLink="/" class="block">Home</a>
+        <a routerLink="/about" class="block">About</a>
         <a routerLink="/contact" class="block">Contact</a>
         <button class="cursor-pointer px-6 py-2 mt-2 bg-indigo-500 hover:bg-indigo-600 transition text-white rounded-full text-sm">
             Login
@@ -22,8 +22,8 @@
 
     <div class="hidden sm:flex items-center gap-8">
         <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
-        <a routerLink="/about" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">About</a>
-        <a routerLink="/contact" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Contact</a>
+        <a routerLink="/about" routerLinkActive="active">About</a>
+        <a routerLink="/contact" routerLinkActive="active">Contact</a>
 
         <div class="hidden lg:flex items-center text-sm gap-2 border border-gray-300 px-3 rounded-full">
             <input class="py-1.5 w-full bg-transparent outline-none placeholder-gray-500" type="text" placeholder="Search products" />
